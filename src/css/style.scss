@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  background-image: url("../media/water-1330252_1920.jpg");
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.form-section {
+  width: 30rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control input {
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font: inherit;
+}
+.form-control input:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}
+.form-action-btn {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.form-action-btn button {
+  background-color: #ff2058;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
