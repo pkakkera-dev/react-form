@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-form/static/css/main.49c63132.chunk.css",
+    "main.js": "/react-form/static/js/main.de836724.chunk.js",
+    "main.js.map": "/react-form/static/js/main.de836724.chunk.js.map",
+    "runtime-main.js": "/react-form/static/js/runtime-main.1c068344.js",
+    "runtime-main.js.map": "/react-form/static/js/runtime-main.1c068344.js.map",
+    "static/js/2.1f76f4b6.chunk.js": "/react-form/static/js/2.1f76f4b6.chunk.js",
+    "static/js/2.1f76f4b6.chunk.js.map": "/react-form/static/js/2.1f76f4b6.chunk.js.map",
+    "index.html": "/react-form/index.html",
+    "precache-manifest.197baaa3373af5822021fc2efaa51323.js": "/react-form/precache-manifest.197baaa3373af5822021fc2efaa51323.js",
+    "service-worker.js": "/react-form/service-worker.js",
+    "static/css/main.49c63132.chunk.css.map": "/react-form/static/css/main.49c63132.chunk.css.map",
+    "static/js/2.1f76f4b6.chunk.js.LICENSE.txt": "/react-form/static/js/2.1f76f4b6.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/react-form/static/media/water-1330252_1920.a5220efc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c068344.js",
+    "static/js/2.1f76f4b6.chunk.js",
+    "static/css/main.49c63132.chunk.css",
+    "static/js/main.de836724.chunk.js"
+  ]
+}
