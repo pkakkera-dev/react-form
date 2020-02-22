@@ -5,7 +5,9 @@ import "../css/style.scss";
 class Login extends React.Component {
   state = {
     userId: "",
-    password: ""
+    password: "",
+    loggedIn: false,
+    buttonText: "Login"
   };
 
   handleInput(event) {
@@ -16,13 +18,29 @@ class Login extends React.Component {
     });
   }
   onSubmitHandler = event => {
-    console.log(this.state);
+    this.setState({
+      userId: "",
+      password: "",
+      loggedIn: !this.state.loggedIn,
+      buttonText: this.state.buttonText === "Login" ? "Logout" : "Login"
+    });
     event.preventDefault();
   };
 
   render() {
     return (
       <section className="form-section">
+        {this.state.loggedIn && (
+          <strong
+            style={{
+              textAlign: "center",
+              color: "green",
+              paddingLeft: "100px"
+            }}
+          >
+            Login Success! Welcome User
+          </strong>
+        )}
         <Card>
           <form onSubmit={this.onSubmitHandler}>
             <div className="form-control">
@@ -44,7 +62,7 @@ class Login extends React.Component {
               />
             </div>
             <div className="form-action-btn">
-              <button type="submit"> Submit </button>
+              <button type="submit"> {this.state.buttonText} </button>
             </div>
           </form>
         </Card>

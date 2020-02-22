@@ -54,3 +54,26 @@ body {
   padding: 0.5rem 2rem;
   cursor: pointer;
 }
+.logout-btn {
+  display: flex;
+  justify-items: flex-end;
+  justify-content: flex-end;
+}
+.logout-btn button {
+  background-color: #ff2058;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+.header {
+  display: block;
+  text-align: center;
+  button {
+    padding: 10px;
+    float: right;
+    margin-left: 38px;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
